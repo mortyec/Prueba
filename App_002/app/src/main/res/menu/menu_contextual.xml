@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_contextual_cortar"
+        android:title="@string/activity_menu_editar_cortar"
+        android:icon="@android:drawable/ic_dialog_alert"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_contextual_copiar"
+        android:title="@string/activity_menu_editar_copiar"
+        android:icon="@android:drawable/ic_input_add"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_contextual_pegar"
+        android:title="@string/activity_menu_editar_pegar"
+        android:icon="@android:drawable/ic_delete"
+        app:showAsAction="never"/>
+</menu>

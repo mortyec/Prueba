@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_archivo"
+        android:title="@string/activity_menu_archivo"
+        android:icon="@android:drawable/ic_dialog_alert"
+        app:showAsAction="never">
+        <menu >
+            <item android:title="Nuevo " />
+            <item android:title="Abrir" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_editar"
+        android:icon="@android:drawable/btn_star"
+        android:title="@string/activity_menu_editar"
+        app:showAsAction="never">
+
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/menu_editar_cortar"
+                    android:icon="@android:drawable/ic_input_add"
+                    android:title="@string/activity_menu_editar_cortar" />
+
+                <item
+                    android:id="@+id/menu_editar_copiar"
+                    android:icon="@android:drawable/ic_input_add"
+                    android:title="@string/activity_menu_editar_copiar" />
+
+                <item
+                    android:id="@+id/menu_editar_pegar"
+                    android:icon="@android:drawable/ic_input_add"
+                    android:title="@string/activity_menu_editar_pegar" />
+            </group>
+
+            <group>
+                <item
+                    android:id="@+id/menu_editar_buscar"
+                    android:icon="@android:drawable/ic_input_add"
+                    android:title="@string/activity_menu_editar_buscar" />
+
+                <item
+                    android:id="@+id/menu_editar_reemplazar"
+                    android:icon="@android:drawable/ic_input_add"
+                    android:title="@string/activity_menu_editar_reemplazar" />
+            </group>
+        </menu>
+
+    </item>
+    <item android:id="@+id/menu_acercade"
+        android:title="@string/menu_acercade"/>
+
+</menu>
